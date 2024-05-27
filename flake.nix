@@ -12,7 +12,7 @@
       in
       {
         devShell = pkgs.mkShell {
-          buildInputs = [ pkgs.stylua pkgs.libgcc ];
+          buildInputs = [ pkgs.stylua pkgs.libgcc pkgs.vimPlugins.nvim-treesitter-parsers.vimdoc ];
           shellHook = ''
             nu
             exit
