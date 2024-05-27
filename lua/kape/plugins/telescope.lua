@@ -19,9 +19,7 @@ return { -- Fuzzy Finder (files, lsp, etc)
     },
     { 'nvim-telescope/telescope-ui-select.nvim' },
 
-    -- Useful for getting pretty icons, but requires special font.
-    --  If you already have a Nerd Font, or terminal set up with fallback fonts
-    --  you can enable this
+    -- Nerd icon
     { 'nvim-tree/nvim-web-devicons' },
   },
   config = function()
